@@ -1629,86 +1629,103 @@ public class Main {
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_8);
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
+                i++;
                 break;
             case 283:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_8);
                 robot.keyPress(KeyEvent.VK_3);robot.keyRelease(KeyEvent.VK_3);
+                i++;
                 break;
             case 284:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_8);
                 robot.keyPress(KeyEvent.VK_4);robot.keyRelease(KeyEvent.VK_4);
+                i++;
                 break;
             case 285:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_8);
                 robot.keyPress(KeyEvent.VK_5);robot.keyRelease(KeyEvent.VK_5);
+                i++;
                 break;
             case 286:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_8);
                 robot.keyPress(KeyEvent.VK_6);robot.keyRelease(KeyEvent.VK_6);
+                i++;
                 break;
             case 287:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_8);
                 robot.keyPress(KeyEvent.VK_7);robot.keyRelease(KeyEvent.VK_7);
+                i++;
                 break;
             case 288:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_8);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_8);
+                i++;
                 break;
             case 289:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_8);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
+                i++;
                 break;
             case 290:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 robot.keyPress(KeyEvent.VK_0);robot.keyRelease(KeyEvent.VK_0);
+                i++;
                 break;
             case 291:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 robot.keyPress(KeyEvent.VK_1);robot.keyRelease(KeyEvent.VK_1);
+                i++;
                 break;
             case 292:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
+                i++;
                 break;
             case 293:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 robot.keyPress(KeyEvent.VK_3);robot.keyRelease(KeyEvent.VK_3);
+                i++;
                 break;
             case 294:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 robot.keyPress(KeyEvent.VK_4);robot.keyRelease(KeyEvent.VK_4);
+                i++;
                 break;
             case 295:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 robot.keyPress(KeyEvent.VK_5);robot.keyRelease(KeyEvent.VK_6);
+                i++;
                 break;
             case 296:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 robot.keyPress(KeyEvent.VK_6);robot.keyRelease(KeyEvent.VK_7);
+                i++;
                 break;
             case 297:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 robot.keyPress(KeyEvent.VK_7);robot.keyRelease(KeyEvent.VK_8);
+                i++;
                 break;
             case 298:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_9);
+                i++; 
                 break;
             case 299:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
