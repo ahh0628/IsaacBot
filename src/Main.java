@@ -1,11 +1,15 @@
 import com.sun.scenario.effect.impl.prism.PrTexture;
 import javafx.scene.input.KeyCharacterCombination;
+import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyCombination;
 
 import javax.swing.*;
+import javax.swing.event.MenuKeyEvent;
+import javax.swing.event.MenuKeyListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -13,6 +17,7 @@ import java.io.PrintWriter;
 import java.io.Writer;
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
+
 
 public class Main {
     static final Robot robot;
@@ -48,48 +53,59 @@ public class Main {
             case 1:
                 robot.keyPress(KeyEvent.VK_1);robot.keyRelease(KeyEvent.VK_1);
                 i++;
+                System.out.println("pressed spacebar 1");
                 break;
             case 2:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 i++;
+                robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
                 break;
             case 3:
                 robot.keyPress(KeyEvent.VK_3);robot.keyRelease(KeyEvent.VK_3);
                 i++;
+                robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
                 break;
             case 4:
                 robot.keyPress(KeyEvent.VK_4);robot.keyRelease(KeyEvent.VK_4);
                 i++;
+                robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
                 break;
             case 5:
                 robot.keyPress(KeyEvent.VK_5);robot.keyRelease(KeyEvent.VK_5);
                 i++;
+                robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
                 break;
             case 6:
                 robot.keyPress(KeyEvent.VK_6);robot.keyRelease(KeyEvent.VK_6);
                 i++;
+                robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
                 break;
             case 7:
                 robot.keyPress(KeyEvent.VK_7);robot.keyRelease(KeyEvent.VK_7);
                 i++;
+                robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
                 break;
             case 8:
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_8);
                 i++;
+                robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
                 break;
             case 9:
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 i++;
+                robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
                 break;
             case 10:
                 robot.keyPress(KeyEvent.VK_1);robot.keyRelease(KeyEvent.VK_1);
                 robot.keyPress(KeyEvent.VK_0);robot.keyRelease(KeyEvent.VK_0);
                 i++;
+                robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
                 break;
             case 11:
                 robot.keyPress(KeyEvent.VK_1);robot.keyRelease(KeyEvent.VK_1);
                 robot.keyPress(KeyEvent.VK_1);robot.keyRelease(KeyEvent.VK_1);
                 i++;
+                robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
                 break;
             case 12:
                 robot.keyPress(KeyEvent.VK_1);robot.keyRelease(KeyEvent.VK_1);
@@ -1725,7 +1741,7 @@ public class Main {
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
                 robot.keyPress(KeyEvent.VK_9);robot.keyRelease(KeyEvent.VK_9);
                 robot.keyPress(KeyEvent.VK_8);robot.keyRelease(KeyEvent.VK_9);
-                i++; 
+                 i++;
                 break;
             case 299:
                 robot.keyPress(KeyEvent.VK_2);robot.keyRelease(KeyEvent.VK_2);
@@ -3003,15 +3019,17 @@ public class Main {
                 robot.keyPress(KeyEvent.VK_0);robot.keyRelease(KeyEvent.VK_0);
                 break;
         }
-        robot.keyPress(KeyEvent.VK_SPACE);robot.keyRelease(KeyEvent.VK_SPACE);
+        //robot.keyPress(KeyEvent.VK_SPACE);robot.keyRelease(KeyEvent.VK_SPACE);
+        robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
     }
+
+
 
     public static void main(String[] args) throws InterruptedException {
         TimeUnit.SECONDS.sleep(5);
-        for(int i = 1; i<554; i++) {
+        for(int i = 1; i<553; i++) {
             giveItem();
-            TimeUnit.MILLISECONDS.sleep(40);
-            robot.keyPress(KeyEvent.VK_ENTER);robot.keyRelease(KeyEvent.VK_ENTER);
+            TimeUnit.MILLISECONDS.sleep(65);
         }
     }
 }
